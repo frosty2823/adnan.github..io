@@ -229,4 +229,8 @@ footer a {
     flex-direction: column;
     margin-left: 0px;
   }
+
+  .intro {
+    padding-top: 100vh;
+  }
 }
