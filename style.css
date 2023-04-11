@@ -90,7 +90,8 @@ h5 {
   margin-top: 10px;
   font-weight: normal;
 }
-.education {
+.education,
+.workExperience {
   margin-bottom: 50px;
 }
 .experience {
@@ -208,7 +209,7 @@ footer a {
   color: white;
 }
 
-@media only screen and (max-width: 367px) {
+@media only screen and (max-width: 1000px) {
   .contact-details {
     border: 2px solid #90c695;
     border-radius: 0;
@@ -219,6 +220,23 @@ footer a {
   }
 }
 
+@media (max-width: 1000px) {
+  nav ul {
+    position: absolute;
+    margin-bottom: 225px;
+  }
+  nav ul li {
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .intro {
+    padding-top: 45vh;
+    padding-bottom: 0;
+  }
+}
+
 @media (max-width: 600px) {
   nav ul {
     position: absolute;
@@ -226,11 +244,12 @@ footer a {
   }
   nav ul li {
     display: flex;
+    font-size: 25px;
     flex-direction: column;
     margin-left: 0px;
   }
-
   .intro {
-    padding-top: 50vh;
+    padding-top: 60vh;
+    padding-bottom: 10vh;
   }
 }
